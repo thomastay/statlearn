@@ -1,4 +1,4 @@
-#Notes from Chapter 2
+# Notes from Chapter 2
     - Bias Variance tradeoff --> This is a mathematical statement that no matter
       what your parameter model is, any attempt to decrease the bias by
       increasing flexibility will end up decreasing the variance. Moreover, bias
