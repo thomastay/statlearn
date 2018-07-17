@@ -28,7 +28,7 @@ Solutions:
        However, the idea is to do an iterative approach by seeing which
        variables have the lowest p-value and adding them to some model, then
        judging the model by some statistical criterion. 
-    3. Related to 2, is used in the asnwer
+    3. Related to 2, is used in the answer
 
 
 ## Other notes:
@@ -48,13 +48,16 @@ affect the p-values (which decide whether Asian v Indian is statistically
 significant). So, first you must do an F-test to determine that at least one
 variable is significant.
 
-## 
+## Issues with multiple regression
 High leverage points vs Outliers:
     - Outliers are points in the training set for which the predicted value is
       far off from the actual value
     - High leverage points are points which have a large x value compared to the
       other points; this means that the point has a large impact on the least
       squares lines coefficients.
+
+Collinearity - When two or more predictor variables are *very* strongly
+correlated in the training set. This means that it is hard to know whether an increase in y is due to which one of those variables. 
 
 ## Linear Regression vs Naive KNN
 

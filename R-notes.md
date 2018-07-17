@@ -28,6 +28,8 @@ lm.fit = lm(y~., data=DATA)
 
 4. Residuals vs Leverage
     - Helps in identifying influential outliers
+    - Points which have a high residual value and high leverage are worth
+      looking at.
     - You want to find cases that lie outside the the Cook's distance line 
 
 
